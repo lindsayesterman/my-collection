@@ -1,38 +1,163 @@
-.App {
-  text-align: center;
+html{
+	font-family: 'Roboto', sans-serif;
+	background-color:#FDFDFD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.closet {
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	margin:20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.closet img{
+	margin:10px;
+	width:540px;
+	height:540px;
+}
+
+h1{
+	font-size:50px;
+	text-align:center;
+	position:absolute;
+	left:50%;
+	top:55%;
+	transform: translate(-50%, -50%);
+	color:black;
+	font-weight:400;
+	background-color:white;
+}
+
+#nav-bar{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	border:1px solid black;
+}
+
+.nav{
+	text-decoration: none;
+	font-size:14px;
+	color:gray;
+	margin:15px;
+	margin-top:23px;
+  cursor: pointer;
+  list-style:none;
+}
+
+
+.flex-container{
+	display: flex;
+	justify-content:center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.item{
+	height:340px;
+	width:330px;
+	margin:20px;
+	border-bottom:80px solid white;
+}
+
+.listing{
+	position: relative;
+}
+
+.listing:hover{
+	transform:scale(1.1);
+}
+
+
+.item-name{
+	position:absolute;
+	top:79%;
+	left:50%;
+  color:black;
+  font-size: 15px;
+	transform: translate(-50%, -50%);
+}
+
+.price{
+  position:absolute;
+	top:85%;
+	left:50%;
+  color:black;
+  font-size: 14px;
+	transform: translate(-50%, -50%);
+}
+
+
+@media only screen and (min-width:751px) and (max-width:1000px){
+
+	.item{
+		height:310px;
+		width:300px;
+	}
+
+	.closet img{
+		width:410px;
+		height:410px;
+	}
+
+
+	h1{
+		font-size:40px;
+	}
+
+	button{
+		font-size:10px;
+	}
+
+
+}
+
+@media only screen and (min-width:449px) and (max-width:750px){
+
+	.closet img{
+    display:none;
+	}
+
+	h1{
+    font-size:25px;
+    top:13%;
+    margin: 4px;
+	}
+
+	button{
+		font-size:8px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .item{
+		height:280px;
+		width:270px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .nav{
+    font-size: 10px
   }
+
+	
+}
+
+@media screen and (max-width:449px) {
+
+	#nav-bar{
+		display:none;
+	}
+	
+	.closet img{
+		display:none;
+	}
+
+  h1{
+    font-size:25px;
+    top:3%;
+  }
+  .item{
+    margin-top:40px;
+    width: 330px;
+  }
+ 
 }
