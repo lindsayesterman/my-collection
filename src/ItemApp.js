@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import ItemPage from './ItemPage.js';
 import {getItemsForNav, findItem, findNav} from './Item-helpers';
-
+import Header from './Header.js'
 
 const  { navs, items } = store
 
@@ -28,8 +28,8 @@ class ItemApp extends Component{
     render(){
         const { items, navs  } = this.state
         return(
-            <div>
-                {['/', '/nav/:navName'].map(path => (
+        <div>               
+             {['/', '/nav/:navName'].map(path => (
                     <Route
                         exact
                         key={path}
@@ -48,16 +48,25 @@ class ItemApp extends Component{
                             );
                         }}
                     />
-                ))}
-                <div className="closet">
-                    <img src="/img/esma-closet.png"/>
-                    <img src="/img/dog.png"/>
-                    <header>
-                        <Link to={'/'}>
-                            <h1>LINDSAY'S CLOSET</h1>
-                        </Link>
-                    </header>
-                </div>
+                ))}          
+        {['/', '/nav/:navName'].map(path => (
+                    <Route
+                        exact
+                        key={path}
+                        path={path}
+                        render={routeProps => {
+                            const {navName} = routeProps.match.params;
+                            const ItemsForNav = getItemsForNav(
+                                items,
+                                navName
+                            );
+                            return (
+                                <Header />
+                            );
+                        }}
+                    />
+                ))}                       
+
           <Route
             path='/item/:itemId'
             component={ItemPage}
@@ -82,6 +91,7 @@ class ItemApp extends Component{
                         }}
                     />
                 ))}
+                
             </div>
         )
     }

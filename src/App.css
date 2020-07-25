@@ -42,8 +42,8 @@ h1{
 	color:gray;
 	margin:15px;
 	margin-top:23px;
-  cursor: pointer;
-  list-style:none;
+	cursor: pointer;
+	list-style:none;
 }
 
 
@@ -74,75 +74,111 @@ h1{
 	position:absolute;
 	top:79%;
 	left:50%;
-  color:black;
-  font-size: 15px;
+	color:black;
+	font-size: 15px;
 	transform: translate(-50%, -50%);
 }
 
 .price{
-  position:absolute;
+	position:absolute;
 	top:85%;
 	left:50%;
-  color:black;
-  font-size: 14px;
+	color:black;
+	font-size: 14px;
+	transform: translate(-50%, -50%);
+}
+
+.item-close-up{
+	width:580px;
+	height:580px;
+	margin: 3%;
+}
+
+.item-info img{
+	float:left;
+	display:inline; 
+}
+
+.info {
+	float:right; 
+	display:inline; 
+	width: 27%;
+	position: absolute;
+	top: 40%;
+	left: 80%;
 	transform: translate(-50%, -50%);
 }
 
 
 @media only screen and (min-width:751px) and (max-width:1000px){
-
+	
 	.item{
 		height:310px;
 		width:300px;
 	}
-
+	
 	.closet img{
 		width:410px;
 		height:410px;
 	}
-
-
+	
+	
 	h1{
 		font-size:40px;
 	}
-
-	button{
-		font-size:10px;
+	
+	
+	.item-close-up{
+		width:480px;
+		height:480px;
 	}
-
-
+	
+	
 }
 
 @media only screen and (min-width:449px) and (max-width:750px){
-
+	
 	.closet img{
-    display:none;
+		display:none;
 	}
-
+	
 	h1{
-    font-size:25px;
-    top:13%;
-    margin: 4px;
+		font-size:25px;
+		top:13%;
+		margin: 4px;
 	}
-
+	
 	button{
 		font-size:8px;
-  }
-
-  .item{
+	}
+	
+	.item{
 		height:280px;
 		width:270px;
-  }
+	}
+	
+	.nav{
+		font-size: 10px
+	}
+		
+	.item-close-up{
+		width:93%;
+		height:580px;
+		transform:scale(.94);
+	}
 
-  .nav{
-    font-size: 10px
-  }
-
+	.info{
+		position: absolute;
+		top: 105%;
+		left: 53%;
+		width:90%;
+		transform: translate(-50%, -50%);
+	}
 	
 }
 
 @media screen and (max-width:449px) {
-
+	
 	#nav-bar{
 		display:none;
 	}
@@ -150,14 +186,27 @@ h1{
 	.closet img{
 		display:none;
 	}
+	
+	h1{
+		font-size:25px;
+		top:3%;
+	}
+	.item{
+		margin-top:40px;
+		width: 330px;
+	}
+		
+	.item-close-up{
+		height:380px;
+		width:94%;
+	}
 
-  h1{
-    font-size:25px;
-    top:3%;
-  }
-  .item{
-    margin-top:40px;
-    width: 330px;
-  }
- 
+	.info{
+		position: absolute;
+		top: 60%;
+		left: 50%;
+		width:90%;
+		transform: translate(-50%, -50%);
+	}
+	
 }
