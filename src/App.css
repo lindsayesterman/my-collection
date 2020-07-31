@@ -26,6 +26,7 @@ h1{
 	color:black;
 	font-weight:400;
 	background-color:white;
+	padding:1px;
 }
 
 #nav-bar{
@@ -57,8 +58,9 @@ h1{
 .item{
 	height:340px;
 	width:330px;
-	margin:20px;
+	margin:30px;
 	border-bottom:80px solid white;
+	border-radius: 4px;
 }
 
 .listing{
@@ -88,20 +90,32 @@ h1{
 	transform: translate(-50%, -50%);
 }
 
-.item-close-up{
-	width:580px;
-	height:580px;
-	margin: 3%;
+
+.mini-item-container{
+	display:flex;
+	flex-direction: column;
 }
 
-.item-info img{
-	float:left;
-	display:inline; 
+.mini-item{
+	width:100px;
+	height:100px;
+	margin:10px;
+	display:inline;
+	padding:5px;
 }
+
+.bigItem{
+	width:550px;
+	height:550px;
+	margin: 1%;
+	position: absolute;
+	top: 42.6%;
+	left: 37.9%;
+	transform: translate(-50%, -50%);
+}
+
 
 .info {
-	float:right; 
-	display:inline; 
 	width: 27%;
 	position: absolute;
 	top: 40%;
@@ -126,13 +140,19 @@ h1{
 	h1{
 		font-size:40px;
 	}
-	
-	
-	.item-close-up{
-		width:480px;
-		height:480px;
+
+	.info{
+		left:40%;
+		top:95%;
+		width:70%;
 	}
 	
+	
+	.bigItem{
+		width:500px;
+		height:500px;
+		margin-left:13%;
+	}
 	
 }
 
@@ -161,18 +181,22 @@ h1{
 		font-size: 10px
 	}
 		
-	.item-close-up{
-		width:93%;
-		height:580px;
-		transform:scale(.94);
+	.bigItem{
+		width:480px;
+		height:480px;
+		top:60%;
+		left:50%;	
 	}
 
 	.info{
 		position: absolute;
-		top: 105%;
-		left: 53%;
+		top: 115%;
+		left: 55%;
 		width:90%;
-		transform: translate(-50%, -50%);
+	}
+	.mini-item-container{
+		flex-direction:row;
+		justify-content:center;
 	}
 	
 }
@@ -199,6 +223,10 @@ h1{
 	.item-close-up{
 		height:380px;
 		width:94%;
+	}
+
+	.mini-item-container{
+		flex-direction:row;
 	}
 
 	.info{

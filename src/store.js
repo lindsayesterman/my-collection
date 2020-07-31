@@ -7,8 +7,12 @@ export default {
         price: "13",
         size: "1X",
         brand: "Forever 21",
-        description: "Band muscle tank. Cool design down the middle of the shirt. Fun and different!",
-        url: "/img/bandtee.png"
+        url: "/img/bandtee.png",
+        url1: "/img/bandtee1.png",
+        url2: "/img/bandtee2.png",
+        url3: "/img/bandtee3.png",
+        url4: "/img/bandtee4.png",
+        description: "Band muscle tank. Cool design down the middle of the shirt. Fun and different!"
         },
         {
         name: "Black tight mini dress",
@@ -181,14 +185,14 @@ export default {
         description: "Very nice, new with tags Amanda Richard blouse. Super cute with a pair of jeans!" 
         },
         {
-        name: "Brandy Melville Corduroys",
+        name: "LF Black Soft Shorts",
         category: "Bottoms-shorts",
         id: "18",
         price: "19",
-        size: "Medium",
-        brand: "Brandy Melville ",
-        url: "/img/brandypants.png",
-        description: "Super cute ribbed navy blue brandy melville corduroys. Stretchy waist. " 
+        size: "Small",
+        brand: "LF",
+        url: "/img/lfshorts.png",
+        description: "Super cute LF shorts with stretchy waist band and pockets. LF tape for design. Very comfortable and trendy. " 
         },
         {
         name: "Brandy Melville Gray Alien Cropped Crewneck",
@@ -209,9 +213,42 @@ export default {
         brand: "Juicy ",
         url: "/img/blackjuicy.png",
         description: "Adorable little black dress. Lace bottom, mini pockets, and decorative straps." 
+        },
+        {
+        name: "Oversized Gray Ojibwa Hoodie",
+        category: "Jackets-sweatshirts",
+        id: "21",
+        price: "14",
+        size: "Medium",
+        brand: "Alternate Sportswear",
+        url: "/img/ojibwahoodie.png",
+        description: "Comfy, oversized gray hoodie. Red OJIBWA lettering on front. No strings." 
+        },
+        {
+        name: "Lucky Jean Cargo Pants",
+        category: "Bottoms-shorts",
+        id: "22",
+        price: "14",
+        size: "25",
+        brand: "Lucky Jeanas ",
+        url: "/img/luckycargo.png",
+        description: "Very trendy lucky cargo pants. Army green color. Nice pockets and style!" 
+        },
+        {
+        name: "Floral Little Black Dress",
+        category: "Dresses",
+        id: "23",
+        price: "29",
+        size: "2",
+        brand: "DK",
+        url: "/img/blackfloral.png",
+        description: "Floral slim little black dress. Very flattering." 
         }
     ], 
     "navs": [
+        {
+        "name":"All"
+        },
         {
         "name": "Tops"
         },

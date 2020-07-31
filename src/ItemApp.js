@@ -28,8 +28,8 @@ class ItemApp extends Component{
     render(){
         const { items, navs  } = this.state
         return(
-        <div>               
-             {['/', '/nav/:navName'].map(path => (
+        <div>            
+                 {['/', '/nav/:navName'].map(path => (
                     <Route
                         exact
                         key={path}
@@ -48,7 +48,8 @@ class ItemApp extends Component{
                             );
                         }}
                     />
-                ))}          
+                ))}
+       
         {['/', '/nav/:navName'].map(path => (
                     <Route
                         exact
@@ -66,7 +67,6 @@ class ItemApp extends Component{
                         }}
                     />
                 ))}                       
-
           <Route
             path='/item/:itemId'
             component={ItemPage}
