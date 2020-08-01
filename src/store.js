@@ -11,7 +11,6 @@ export default {
         url1: "/img/bandtee1.png",
         url2: "/img/bandtee2.png",
         url3: "/img/bandtee3.png",
-        url4: "/img/bandtee4.png",
         description: "Band muscle tank. Cool design down the middle of the shirt. Fun and different!"
         },
         {
@@ -246,9 +245,6 @@ export default {
         }
     ], 
     "navs": [
-        {
-        "name":"All"
-        },
         {
         "name": "Tops"
         },

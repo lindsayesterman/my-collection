@@ -23,7 +23,7 @@ class ItemApp extends Component{
           navs
         })
       }
-    
+
 
     render(){
         const { items, navs  } = this.state
