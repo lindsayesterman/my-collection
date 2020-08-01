@@ -4,18 +4,16 @@ import { Link } from 'react-router-dom';
 export default function Header (props){
     return(
         <div className="header">
-            <div className="top">
-            <Link to={'/'}>
-            <h1>LINDSAY'S CLOSET</h1>
-            </Link>
-            <input 
-            className="search-bar" 
-            id="search-bar" 
-            aria-label="search" 
-            placeholder="Search for items, brands, or inspiration"
-            type="search">
-            </input>
-            </div>
+           <ul>
+                <li className="lindsay">
+                    <Link to={'/'}>
+                        <h1>LINDSAY'S CLOSET</h1>
+                    </Link>
+                </li>
+                <li className="tabs">Search</li>
+                <li className="tabs">Cart</li>
+                <li className="tabs">Profile</li>
+            </ul>
             <div className="welcome">
                     <div className="promo">
                         <h3>Get 25% off your order of $15 or more!</h3>

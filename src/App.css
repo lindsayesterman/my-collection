@@ -1,13 +1,6 @@
 html{
-	background-color:#FDFDFD;
+	background-color:#f6f6f6;
 }
-
-h1{
-	font-size:23px;
-	margin-top:20px;
-	margin-left:45px;
-}
-
 
 #nav-bar{
 	width:100%;
@@ -15,10 +8,9 @@ h1{
 	flex-direction:column;
 	justify-content: center;
 	position: absolute;
-	top: 80%;
+	top: 85%;
 	left: 1%;
 }
-
 .nav{
 	font-size:14px;
 	margin:15px;
@@ -26,25 +18,30 @@ h1{
 	list-style:none;
 }
 
-.top{
-	display:flex;
-	flex-direction: row;
+ul {
+	display: flex;
+	margin: 0 -10px;
+	list-style: none;
 }
 
-input{
-	border-radius: 10px;
-	width:40%;
-	height:40px;
-	display:block;
-	padding:10px;
-	border:1px solid white;
-	margin: 15px auto 1px 170px;
-	background-color:whitesmoke;	
+li {
+	margin: 0 25px;
+}
+
+.tabs{
+	padding:20px;
+}
+
+.lindsay{
+	margin-right: auto;
+	font-size:11px;
+	margin-top:3px;
+	margin-left:6%;
 }
 
 .welcome{
 	width:80%;
-	background-color: pink;
+	background-color:pink;
 	border-radius:20px;
 	height:300px;
 	display:block;
@@ -54,6 +51,7 @@ input{
 
 .promo{
 	text-align:center;
+	font-size:22px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -82,8 +80,8 @@ input{
 }
 
 .item{
-	height:340px;
-	width:330px;
+	height:320px;
+	width:310px;
 	margin:30px;
 	border-bottom:80px solid white;
 	border-radius: 25px;
@@ -168,7 +166,7 @@ input{
 		height:490px;
 		margin-left:13%;
 	}
-
+	
 	.mini-item{
 		flex-wrap:wrap;
 	}
@@ -189,7 +187,7 @@ input{
 	.nav{
 		font-size: 10px
 	}
-		
+	
 	.bigItem{
 		width:480px;
 		height:480px;
@@ -197,6 +195,13 @@ input{
 		left:50%;	
 	}
 
+
+	.tabs{
+		font-size:13px;
+		padding:17px;
+	}
+
+	
 	.info{
 		position: absolute;
 		top: 115%;
@@ -215,23 +220,32 @@ input{
 	#nav-bar{
 		display:none;
 	}
-
+	
 	.item{
 		margin-top:40px;
 		width: 330px;
 	}
-		
+	
+	.tabs{
+		font-size:10px;
+		padding:1px;
+	}
+	
+	h1{
+		font-size:10px;
+	}
+	
 	.bigItem{
 		height:300px;
 		width:84%;
 	}
-
+	
 	.mini-item-container{
 		flex-direction:row;
 		flex-wrap:wrap;
 		justify-content:center;
 	}
-
+	
 	.info{
 		position: absolute;
 		top: 60%;
@@ -239,8 +253,9 @@ input{
 		width:90%;
 		transform: translate(-50%, -50%);
 	}
-
+	
 	#nav-bar{
-		display:none;
+		flex-direction: row;
+		flex-wrap: wrap;
 	}
 }
