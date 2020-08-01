@@ -1,14 +1,13 @@
 html{
 	background-color:#f6f6f6;
-}
+	font-family: 'Roboto', sans-serif;}
 
 #nav-bar{
-	width:100%;
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
-	position: absolute;
-	top: 85%;
+	position: fixed;
+	top: 20%;
 	left: 1%;
 }
 .nav{
@@ -16,6 +15,7 @@ html{
 	margin:15px;
 	cursor: pointer;
 	list-style:none;
+	color:black;
 }
 
 ul {
@@ -34,9 +34,26 @@ li {
 
 .lindsay{
 	margin-right: auto;
-	font-size:11px;
-	margin-top:3px;
+	font-size:19px;
+	margin-top:17px;
 	margin-left:6%;
+	color: black;
+}
+
+.open{
+	width:40%;
+	margin-left:15%;
+	font-family: Arial, sans-serif;
+	padding: 100px 0 200px 90px;
+}
+
+.open h2{
+	font-size:60px;
+	color: #b1d2ff;
+}
+
+.open h3{
+	font-size:44px;
 }
 
 .welcome{
@@ -195,7 +212,6 @@ li {
 		left:50%;	
 	}
 
-
 	.tabs{
 		font-size:13px;
 		padding:17px;
@@ -231,7 +247,7 @@ li {
 		padding:1px;
 	}
 	
-	h1{
+	.lindsay{
 		font-size:10px;
 	}
 	

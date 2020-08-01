@@ -7,12 +7,14 @@ export default function NavList (props){
       return (
         <div id="nav-bar">
               <Link to={'/'}
-              className="nav">
+              className="nav"
+              style={{ textDecoration: 'none' }}>
                 All
               </Link>
             {props.navs.map(nav =>
                 <div key={nav.name}>
-                <NavLink to={`/nav/${nav.name}`}>
+                <NavLink to={`/nav/${nav.name}`}
+                style={{ textDecoration: 'none' }}>
                   <Nav 
                     key={nav.name}
                     {...nav}

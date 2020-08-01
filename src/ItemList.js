@@ -7,7 +7,6 @@ class ItemList extends React.Component {
       items:[]
     };
 
-
     render() {
       const { items } = this.props
       return (
