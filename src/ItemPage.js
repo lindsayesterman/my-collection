@@ -1,6 +1,7 @@
 import React from 'react';
 import store from './store.js'
 
+
 class ItemPage extends React.Component{
     constructor(props){
         super(props);

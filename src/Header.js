@@ -15,21 +15,10 @@ export default function Header (props){
                 <li className="tabs">Cart</li>
                 <li className="tabs">Profile</li>
             </ul>
-            <div className="open">
-                <h2>
-                    Lindsay's Closet
-                </h2>
-                <h3>
-                    - Sustainable fashion. You will want.
-                </h3>
+            <div className="openingimg">
+            <img className="car-top" src="/img/cartop.png"></img>
+            <img className="dye-top" src="/img/bigdye.png"></img>
             </div>
-            {/*<div className="welcome">
-                    <div className="promo">
-                        <h3>Get 25% off your order of $15 or more!</h3>
-                        <button className='get-code'>Get Code!</button>
-                        <h5 className="hidden">With Code: first25</h5>
-                    </div>
-            </div>*/}
         </div>
     )
 }
