@@ -21,6 +21,9 @@ export default {
         size: "Small",
         brand: "Bloomingdales",
         url: "/img/blackdress.png",
+        url1: "/img/blackdress1.png",
+        url2: "/img/blackdress2.png",
+        url3: "/img/blackdress3.png",
         description: "Tight little black dress, but very stretchy. Super cute for a night out. "
         },
         {
@@ -31,6 +34,9 @@ export default {
         size: "Small",
         brand: "Gap",
         url: "/img/yellowgap.png",
+        url1: "/img/yellowgap1.png",
+        url2: "/img/yellowgap2.png",
+        url3: "/img/yellowgap3.png",
         description: "Pastel yellow oversized sweatshirt. Cable knit look with cute v neck. "
         },
         {
@@ -41,6 +47,9 @@ export default {
         size: "Small",
         brand: "Forever 21",
         url: "/img/whiteromper.png",
+        url1: "/img/ferrari1.png",
+        url2: "/img/ferrari2.png",
+        url3: "/img/ferrari3.png",
         description: "Beautiful white romper with adjustable straps. Lace top. "
         },
         {
@@ -51,6 +60,9 @@ export default {
         size: "Small",
         brand: "Adidas",
         url: "/img/redadd.png",
+        url1: "/img/redadd1.png",
+        url2: "/img/redadd2.png",
+        url3: "/img/redadd3.png",
         description: "Red adidas tank. Super cute for working out or just hanging out. "
         },
         {
@@ -61,6 +73,9 @@ export default {
         size: "Extra small",
         brand: "Ferrari",
         url: "/img/ferrari.png",
+        url1: "/img/ferrari1.png",
+        url2: "/img/ferrari2.png",
+        url3: "/img/ferrari3.png",
         description: "Yellow Ferrari shirt. Not actaully made by Ferrari but super cute."
         },
         {
@@ -71,6 +86,9 @@ export default {
         size: "Medium",
         brand: "LF/Emma and Sam",
         url: "/img/lftop.png",
+        url1: "/img/lftop1.png",
+        url2: "/img/lftop2.png",
+        url3: "/img/lftop3.png",
         description: "Yellow long sleeve top with small holes in it for style. Super cute. Made by emma and sam but bought at LF. "
         },
         {
@@ -81,6 +99,9 @@ export default {
         size: "Small",
         brand: "No brand",
         url: "/img/sparkledress.png",
+        url1: "/img/bluesparkle1.png",
+        url2: "/img/bluesparkle2.png",
+        url3: "/img/bluesparkle3.png",
         description: "Very flattering sparkly navy blue dress. One shoulder design. Textured feel. "
         },
         {
@@ -91,6 +112,9 @@ export default {
         size: "Extra small",
         brand: "Free People",
         url: "/img/greenfp.png",
+        url1: "/img/greenfp1.png",
+        url2: "/img/greenfp2.png",
+        url3: "/img/greenfp3.png",
         description: "Lime green long sleeve FP top with lace sleeves. Button down top and super cute!"
         },
         {
@@ -101,6 +125,9 @@ export default {
         size: "Small",
         brand: "BillaBong",
         url: "/img/billabong.png",
+        url1: "/img/billabong1.png",
+        url2: "/img/billabong2.png",
+        url3: "/img/billabong3.png",
         description: "BillaBong hoodie with pockets. Super cute. Different colored sleeves and rope string."
         },
         {
@@ -111,6 +138,9 @@ export default {
         size: "Exra small",
         brand: "LF",
         url: "/img/lfblazer.png",
+        url1: "/img/lftop1.png",
+        url2: "/img/lftop2.png",
+        url3: "/img/lftop3.png",
         description: "LF plaid blazer. Very trendy right now. Made by SEEK sold at LF."
         },
         {
@@ -121,6 +151,9 @@ export default {
         size: "Small",
         brand: "San Francisco City Lights",
         url: "/img/redjack.png",
+        url1: "/img/redjack1.png",
+        url2: "/img/redjack2.png",
+        url3: "/img/redjack3.png",
         description: "Tight cherry red zip up jacket with gold zipper. Super cute."
         },
         {
@@ -131,6 +164,9 @@ export default {
         size: "Small",
         brand: "The Beatles",
         url: "/img/beatlestop.png",
+        url1: "/img/lftop1.png",
+        url2: "/img/lftop2.png",
+        url3: "/img/lftop3.png",
         description: "Authentic Beatles crop top tank. "
         },
         {
@@ -141,6 +177,9 @@ export default {
         size: "Small",
         brand: "No brand",
         url: "/img/tiedye.png",
+        url1: "/img/tiedye1.png",
+        url2: "/img/tiedye2.png",
+        url3: "/img/tiedye3.png",
         description: "In right now, tie dye top. Very colorful and fun." 
         },
         {
@@ -151,6 +190,9 @@ export default {
         size: "Medium",
         brand: "Tasso Elba",
         url: "/img/blueboy.png",
+        url1: "/img/blueboy1.png",
+        url2: "/img/blueboy2.png",
+        url3: "/img/blueboy3.png",
         description: "Blue striped Tasso Elba t-shirt." 
         },
         {
@@ -161,6 +203,9 @@ export default {
         size: "Extra Small",
         brand: "Victoria's Secret PINK",
         url: "/img/pinktunic.png",
+        url1: "/img/lftop1.png",
+        url2: "/img/lftop2.png",
+        url3: "/img/lftop3.png",
         description: "Gray vs pink tunic. Super cute for a night out." 
         },
         {
@@ -171,6 +216,9 @@ export default {
         size: "Small",
         brand: "Calvin Klein",
         url: "/img/blueck.png",
+        url1: "/img/blueck1.png",
+        url2: "/img/blueck2.png",
+        url3: "/img/blueck3.png",
         description: "Blue CK top. Can be tucked in, cropped, whatever! Very cute with light embroidered Calvin Klein." 
         },
         {
@@ -181,6 +229,9 @@ export default {
         size: "Small",
         brand: "Amanda Richard ",
         url: "/img/arblouse.png",
+        url1: "/img/arblouse1.png",
+        url2: "/img/arblouse2.png",
+        url3: "/img/arblouse3.png",
         description: "Very nice, new with tags Amanda Richard blouse. Super cute with a pair of jeans!" 
         },
         {
@@ -191,6 +242,9 @@ export default {
         size: "Small",
         brand: "LF",
         url: "/img/lfshorts.png",
+        url1: "/img/lfshorts1.png",
+        url2: "/img/lfshorts2.png",
+        url3: "/img/lfshorts3.png",
         description: "Super cute LF shorts with stretchy waist band and pockets. LF tape for design. Very comfortable and trendy. " 
         },
         {
@@ -201,6 +255,9 @@ export default {
         size: "Small",
         brand: "Brandy Melville ",
         url: "/img/grayalien.png",
+        url1: "/img/grayalien1.png",
+        url2: "/img/grayalien2.png",
+        url3: "/img/grayalien3.png",
         description: "Cropped brandy melville light gray sweatshirt. Gray alien patch in corner. " 
         },
         {
@@ -211,6 +268,9 @@ export default {
         size: "Small",
         brand: "Juicy ",
         url: "/img/blackjuicy.png",
+        url1: "/img/blackjuicy1.png",
+        url2: "/img/blackjuicy2.png",
+        url3: "/img/blackjuicy3.png",
         description: "Adorable little black dress. Lace bottom, mini pockets, and decorative straps." 
         },
         {
@@ -221,6 +281,9 @@ export default {
         size: "Medium",
         brand: "Alternate Sportswear",
         url: "/img/ojibwahoodie.png",
+        url1: "/img/ojibwa1.png",
+        url2: "/img/ojibwa2.png",
+        url3: "/img/ojibwa3.png",
         description: "Comfy, oversized gray hoodie. Red OJIBWA lettering on front. No strings." 
         },
         {
@@ -231,6 +294,9 @@ export default {
         size: "25",
         brand: "Lucky Jeanas ",
         url: "/img/luckycargo.png",
+        url1: "/img/luckycargo1.png",
+        url2: "/img/luckycargo2.png",
+        url3: "/img/luckycargo3.png",
         description: "Very trendy lucky cargo pants. Army green color. Nice pockets and style!" 
         },
         {
@@ -241,6 +307,9 @@ export default {
         size: "2",
         brand: "DK",
         url: "/img/blackfloral.png",
+        url1: "/img/blackfloral1.png",
+        url2: "/img/blackfloral2.png",
+        url3: "/img/blackfloral3.png",
         description: "Floral slim little black dress. Very flattering." 
         }
     ], 

@@ -10,15 +10,16 @@ class ItemPage extends React.Component{
         }
     }
 
-      handleClick= () =>{
+      handleClick= (e) =>{
         this.setState({
-            bigURL: true
+            bigURL: e.target.src
         });
+        console.log(this.state.bigURL)
       }
 
     render(){
+        const bigURL = this.state
         const { items } = store
-        console.log(this.state.bigUrl)
         const item = items.find(p =>
         p.id === this.props.match.params.itemId
       )
@@ -37,16 +38,18 @@ class ItemPage extends React.Component{
                 </img>
                 <img 
                 className="mini-item" 
-                src={item.url2}>
+                src={item.url2}
+                onClick={this.handleClick}>
                 </img>
                 <img 
                 className="mini-item" 
-                src={item.url3}>
+                src={item.url3}
+                onClick={this.handleClick}>
                 </img>
             </div>
                <img 
                className="bigItem"
-               src={this.state.bigURL}>
+               src={bigURL}>
                </img>
                <div className="info">
                 <h2>{item.name}</h2>
