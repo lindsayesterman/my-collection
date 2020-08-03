@@ -18,6 +18,7 @@ export default function Header (props){
             <div className="openingimg">
             <img className="car-top" src="/img/cartop.png"></img>
             <img className="dye-top" src="/img/bigdye.png"></img>
+            <img className="ck-top" src="/img/sneakersopen.png"></img>
             </div>
         </div>
     )
