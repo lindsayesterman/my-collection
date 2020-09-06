@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import ItemPage from './ItemPage.js';
 import {getItemsForNav, findItem, findNav} from './Item-helpers';
 import Header from './Header.js'
+import AddToCart from './AddToCart'
 
 const  { navs, items } = store
 
@@ -23,13 +24,12 @@ class ItemApp extends Component{
           navs
         })
       }
-
-
+      
     render(){
         const { items, navs  } = this.state
         return(
         <div>            
-                 {['/', '/nav/:navName'].map(path => (
+            {['/', '/nav/:navName'].map(path => (
                     <Route
                         exact
                         key={path}
@@ -41,57 +41,29 @@ class ItemApp extends Component{
                                 navName
                             );
                             return (
+                                <>
                                 <NavList
                                     {...routeProps}
                                     navs={navs}
-                                />
-                            );
-                        }}
-                    />
-                ))}
-       
-        {['/', '/nav/:navName'].map(path => (
-                    <Route
-                        exact
-                        key={path}
-                        path={path}
-                        render={routeProps => {
-                            const {navName} = routeProps.match.params;
-                            const ItemsForNav = getItemsForNav(
-                                items,
-                                navName
-                            );
-                            return (
+                                    />
                                 <Header />
-                            );
-                        }}
-                    />
-                ))}                       
-          <Route
-            path='/item/:itemId'
-            component={ItemPage}
-            />
-             {['/', '/nav/:navName'].map(path => (
-                    <Route
-                        exact
-                        key={path}
-                        path={path}
-                        render={routeProps => {
-                            const {navName} = routeProps.match.params;
-                            const ItemsForNav = getItemsForNav(
-                                items,
-                                navName
-                            );
-                            return (
                                 <ItemList
                                     {...routeProps}
                                     items={ItemsForNav}
                                 />
+                                </>
                             );
                         }}
                     />
-                ))}
-                
+                ))}                  
+          <Route
+            path='/item/:itemId'
+            component={ItemPage}
+            />
+            {/*<Route
+            path='/AddToCart'
+            component={AddToCart}
+            />*/}
             </div>
         )
     }

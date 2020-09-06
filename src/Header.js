@@ -16,9 +16,9 @@ export default function Header (props){
                 <li className="tabs">Profile</li>
             </ul>
             <div className="openingimg">
-            <img className="car-top" src="/img/cartop.png"></img>
-            <img className="dye-top" src="/img/bigdye.png"></img>
-            <img className="ck-top" src="/img/sneakersopen.png"></img>
+            <img className="car-top open" src="/img/cartop.png"></img>
+            <img className="dye-top open" src="/img/bigdye.png"></img>
+            <img className="shoes open" src="/img/sneakersopen.png"></img>
             </div>
         </div>
     )

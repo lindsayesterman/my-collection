@@ -1,6 +1,7 @@
 import React from 'react';
 import store from './store.js'
-
+import AddToCart from './AddToCart';
+import { Link } from 'react-router-dom'
 
 class ItemPage extends React.Component{
     constructor(props){
@@ -12,17 +13,18 @@ class ItemPage extends React.Component{
 
       handleClick= (e) =>{
         this.setState({
-            bigURL: e.target.src
+            bigURL: e.target.src.split("/").pop(), 
+            click: 0
         });
-        console.log(this.state.bigURL)
       }
 
     render(){
-        const bigURL = this.state
+        const { bigURL } = this.state
         const { items } = store
+        const URLClicked = `/img/${bigURL}`
         const item = items.find(p =>
         p.id === this.props.match.params.itemId
-      )
+        );
        return(
            <div className="item-info">
             <div className="mini-item-container">
@@ -49,13 +51,20 @@ class ItemPage extends React.Component{
             </div>
                <img 
                className="bigItem"
-               src={bigURL}>
+               src={URLClicked}>
                </img>
                <div className="info">
                 <h2>{item.name}</h2>
                 <p>${item.price} </p>
                 <p>{item.brand}</p>
                 <p>{item.description}</p>
+                <Link to='/AddToCart'>
+                <button 
+                className="add-to-cart"
+                key={this.props.id}>
+                    Add to Cart
+                </button>
+                </Link>
                 </div>
            </div>
        )

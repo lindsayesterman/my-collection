@@ -1,17 +1,17 @@
 export default {
     "items": [
         {
-        name: "Band tee",
+        name: "Calvin Klein blue tshirt",
         category: "Tops",
         id: "0",
-        price: "13",
-        size: "1X",
-        brand: "Forever 21",
-        url: "/img/bandtee.png",
-        url1: "/img/bandtee1.png",
-        url2: "/img/bandtee2.png",
-        url3: "/img/bandtee3.png",
-        description: "Band muscle tank. Cool design down the middle of the shirt. Fun and different!"
+        price: "15",
+        size: "Small",
+        brand: "Calvin Klein",
+        url: "/img/blueck.png",
+        url1: "/img/blueck1.png",
+        url2: "/img/blueck2.png",
+        url3: "/img/blueck3.png",
+        description: "Blue CK top. Can be tucked in, cropped, whatever! Very cute with light embroidered Calvin Klein." 
         },
         {
         name: "Black tight mini dress",
@@ -40,22 +40,9 @@ export default {
         description: "Pastel yellow oversized sweatshirt. Cable knit look with cute v neck. "
         },
         {
-        name: "White romper",
-        category: "Dresses",
-        id: "3",
-        price: "13",
-        size: "Small",
-        brand: "Forever 21",
-        url: "/img/whiteromper.png",
-        url1: "/img/ferrari1.png",
-        url2: "/img/ferrari2.png",
-        url3: "/img/ferrari3.png",
-        description: "Beautiful white romper with adjustable straps. Lace top. "
-        },
-        {
         name: "Red adidas tank",
         category: "Tops",
-        id: "4",
+        id: "3",
         price: "11",
         size: "Small",
         brand: "Adidas",
@@ -64,6 +51,19 @@ export default {
         url2: "/img/redadd2.png",
         url3: "/img/redadd3.png",
         description: "Red adidas tank. Super cute for working out or just hanging out. "
+        },
+        {
+        name: "Band tee",
+        category: "Tops",
+        id: "4",
+        price: "13",
+        size: "1X",
+        brand: "Forever 21",
+        url: "/img/bandtee.png",
+        url1: "/img/bandtee1.png",
+        url2: "/img/bandtee2.png",
+        url3: "/img/bandtee3.png",
+        description: "Band muscle tank. Cool design down the middle of the shirt. Fun and different!"
         },
         {
         name: "Yellow Ferrari Top",
@@ -138,9 +138,9 @@ export default {
         size: "Exra small",
         brand: "LF",
         url: "/img/lfblazer.png",
-        url1: "/img/lftop1.png",
-        url2: "/img/lftop2.png",
-        url3: "/img/lftop3.png",
+        url1: "/img/lfblazer1.png",
+        url2: "/img/lfblazer2.png",
+        url3: "/img/lfblazer3.png",
         description: "LF plaid blazer. Very trendy right now. Made by SEEK sold at LF."
         },
         {
@@ -183,19 +183,6 @@ export default {
         description: "In right now, tie dye top. Very colorful and fun." 
         },
         {
-        name: "Blue striped shirt",
-        category: "Tops",
-        id: "14",
-        price: "12",
-        size: "Medium",
-        brand: "Tasso Elba",
-        url: "/img/blueboy.png",
-        url1: "/img/blueboy1.png",
-        url2: "/img/blueboy2.png",
-        url3: "/img/blueboy3.png",
-        description: "Blue striped Tasso Elba t-shirt." 
-        },
-        {
         name: "Victoria's Secret PINK gray tunic",
         category: "Tops",
         id: "15",
@@ -209,17 +196,17 @@ export default {
         description: "Gray vs pink tunic. Super cute for a night out." 
         },
         {
-        name: "Calvin Klein blue tshirt",
-        category: "Tops",
+        name: "White romper",
+        category: "Dresses",
         id: "16",
-        price: "15",
+        price: "13",
         size: "Small",
-        brand: "Calvin Klein",
-        url: "/img/blueck.png",
-        url1: "/img/blueck1.png",
-        url2: "/img/blueck2.png",
-        url3: "/img/blueck3.png",
-        description: "Blue CK top. Can be tucked in, cropped, whatever! Very cute with light embroidered Calvin Klein." 
+        brand: "Forever 21",
+        url: "/img/whiteromper.png",
+        url1: "/img/ferrari1.png",
+        url2: "/img/ferrari2.png",
+        url3: "/img/ferrari3.png",
+        description: "Beautiful white romper with adjustable straps. Lace top. "
         },
         {
         name: "Amanda Richard Blouse",
@@ -272,19 +259,6 @@ export default {
         url2: "/img/blackjuicy2.png",
         url3: "/img/blackjuicy3.png",
         description: "Adorable little black dress. Lace bottom, mini pockets, and decorative straps." 
-        },
-        {
-        name: "Oversized Gray Ojibwa Hoodie",
-        category: "Jackets-sweatshirts",
-        id: "21",
-        price: "14",
-        size: "Medium",
-        brand: "Alternate Sportswear",
-        url: "/img/ojibwahoodie.png",
-        url1: "/img/ojibwa1.png",
-        url2: "/img/ojibwa2.png",
-        url3: "/img/ojibwa3.png",
-        description: "Comfy, oversized gray hoodie. Red OJIBWA lettering on front. No strings." 
         },
         {
         name: "Lucky Jean Cargo Pants",

@@ -1,12 +1,16 @@
 import React from 'react';
 
-export default function Item(props){
+export default class Item extends React.Component{
+
+
+    render(){
         return(
             <div className='listing'>
                 <img className="item" 
-                src={props.url}></img>
-                <p className="item-name">{props.name}</p>
-                <p className="price">${props.price}</p>
+                src={this.props.url}></img>
+                <p className="item-name">{this.props.name}</p>
+                <p className="price">${this.props.price}</p>
             </div>
         )
+    }
 }
