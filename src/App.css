@@ -156,11 +156,16 @@ div.cart-item{
 	border-radius: 10px;
 	padding:20px;
 	position:relative;
+	height:100%;
+	float:left;
+}
+
+div.cart-item img {
+	padding-bottom:15px;
 }
 
 div.cart-item img{
 	width:100%;
-	float:left;
 }
 
 .cart-page h1{
@@ -168,20 +173,20 @@ div.cart-item img{
 	padding:32px;
 }
 
-.checkout-cart {
-	width:55%;
+.checkout-cart{
+	width:50%;
 	float:right;
 }
 
 
-input, button {
+input, button{
 	display: block;
-	margin:20px;
-	width: 50%;
+	width:45%;
 	float:right;
-	height:30px;
+	margin:20px 0px;
+	height:10px;
 	border-radius: 5px;
-	padding: 10px;
+	padding: 20px;
   }
 
 .checkout-cart a {
@@ -189,9 +194,6 @@ input, button {
 	background-color:white;
 }
 
-button {
-	width:51%;
-}
 
 @media only screen and (min-width:751px) and (max-width:1000px){
 	
@@ -280,7 +282,11 @@ button {
 		flex-direction:row;
 		justify-content:center;
 	}
-	
+
+	input, button, .checkout-cart {
+		width:90%;
+	}
+
 }
 
 @media screen and (max-width:449px) {

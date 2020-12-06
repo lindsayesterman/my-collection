@@ -9,8 +9,7 @@ class AddToCart extends React.Component {
     const item = items.find((p) => p.id === this.props.match.params.itemId);
     const cartItems = item;
     console.log(cartItems);
-    const realPrice =
-      parseFloat(item.price) + parseFloat(item.price) * 0.06 + 4.99;
+    const realPrice = (parseFloat(item.price) + parseFloat(item.price) * 0.06 + 4.99).toFixed(2);
     return (
       <div className="cart-page">
         <ul>
@@ -19,16 +18,16 @@ class AddToCart extends React.Component {
               Lindsay's Closet
             </Link>
           </li>
-          <Link className="checkout" to="AddToCart">
-            <li className="tabs">Checkout</li>
+          <Link className="checkout" to="/">
+            <li className="tabs">Shop</li>
           </Link>
         </ul>
         <h1>You are in the cart</h1>
         <div className="cart-item">
           <h2>{item.name}</h2>
-          <p>${item.price} </p>
-          <p>{item.description}</p>
           <img src={item.url1}></img>
+          <p>{item.description}</p>
+          <p>${item.price} </p>
         </div>
         <div className="checkout-cart">
           <h3>Checkout</h3>
@@ -44,14 +43,15 @@ class AddToCart extends React.Component {
             Pay here
           </a>
         </div>
-        <form>
+        <form action="https://formspree.io/f/mwkwregz" method="POST">
           <input name="name" placeholder="Enter your name..."></input>
           <input
             name="address"
             type="address"
             placeholder="Enter your address..."
           ></input>
-          <button type="submit">Submit</button>
+          <input name="phone" type="number" placeholder="Enter your phone number..."></input>
+          <button name="submit" type="submit">Submit</button>
         </form>
       </div>
     );
