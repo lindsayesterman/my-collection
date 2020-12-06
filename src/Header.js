@@ -11,9 +11,9 @@ export default function Header (props){
                         Lindsay's Closet
                     </Link>
                 </li>
-                <li className="tabs">Search</li>
-                <li className="tabs">Cart</li>
-                <li className="tabs">Profile</li>
+                <Link className="checkout" to="AddToCart">
+                <li className="tabs">Checkout</li>
+                </Link>
             </ul>
             <div className="openingimg">
             <img className="car-top open" src="/img/cartop.png"></img>

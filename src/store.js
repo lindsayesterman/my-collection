@@ -27,19 +27,6 @@ export default {
         description: "Tight little black dress, but very stretchy. Super cute for a night out. "
         },
         {
-        name: "Yellow oversized v neck sweatshirt",
-        category: "Jackets-sweatshirts",
-        id: "2",
-        price: "14",
-        size: "Small",
-        brand: "Gap",
-        url: "/img/yellowgap.png",
-        url1: "/img/yellowgap1.png",
-        url2: "/img/yellowgap2.png",
-        url3: "/img/yellowgap3.png",
-        description: "Pastel yellow oversized sweatshirt. Cable knit look with cute v neck. "
-        },
-        {
         name: "Red adidas tank",
         category: "Tops",
         id: "3",
@@ -261,19 +248,6 @@ export default {
         description: "Adorable little black dress. Lace bottom, mini pockets, and decorative straps." 
         },
         {
-        name: "Lucky Jean Cargo Pants",
-        category: "Bottoms-shorts",
-        id: "22",
-        price: "14",
-        size: "25",
-        brand: "Lucky Jeanas ",
-        url: "/img/luckycargo.png",
-        url1: "/img/luckycargo1.png",
-        url2: "/img/luckycargo2.png",
-        url3: "/img/luckycargo3.png",
-        description: "Very trendy lucky cargo pants. Army green color. Nice pockets and style!" 
-        },
-        {
         name: "Floral Little Black Dress",
         category: "Dresses",
         id: "23",
@@ -285,7 +259,33 @@ export default {
         url2: "/img/blackfloral2.png",
         url3: "/img/blackfloral3.png",
         description: "Floral slim little black dress. Very flattering." 
-        }
+        }, 
+        {
+        name: "Blue and white scrunch tie-dye tank top",
+        category: "Tops",
+        id: "24",
+        price: "12",
+        size: "S",
+        brand: "No brand",
+        url: "/img/bluescrunch.png",
+        url1: "/img/bluescrunch1.png",
+        url2: "/img/bluescrunch2.png",
+        url3: "/img/bluescrunch3.png",
+        description: "Tie dye denim blue scrunchy tank top. One-of-a-kind. Super cute and fun and perfect for any event! Very trendy right now:) . Never worn before and brand new."             
+        },
+        {
+        name: "Treasure & bond ripped blue jeans",
+        category: "Jeans",
+        id: "25",
+        price: "22",
+        size: "25",
+        brand: "Treasure & bond",
+        url: "/img/jeans3.png",
+        url1: "/img/jeans.png",
+        url2: "/img/jeans1.png",
+        url3: "/img/jeans2.png",
+        description: "Distressed bluejeans with really cute holes. Skinny boyfriend mid rise ankle. Great condition." 
+        }, 
     ], 
     "navs": [
         {

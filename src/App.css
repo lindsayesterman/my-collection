@@ -148,6 +148,50 @@ li {
 	transform: translate(-50%, -50%);
 }
 
+div.cart-item{
+	background-color:white;
+	margin:20px;
+	width:40%;
+	text-align:center;
+	border-radius: 10px;
+	padding:20px;
+	position:relative;
+}
+
+div.cart-item img{
+	width:100%;
+	float:left;
+}
+
+.cart-page h1{
+	text-align: center;
+	padding:32px;
+}
+
+.checkout-cart {
+	width:55%;
+	float:right;
+}
+
+
+input, button {
+	display: block;
+	margin:20px;
+	width: 50%;
+	float:right;
+	height:30px;
+	border-radius: 5px;
+	padding: 10px;
+  }
+
+.checkout-cart a {
+	color:blue;
+	background-color:white;
+}
+
+button {
+	width:51%;
+}
 
 @media only screen and (min-width:751px) and (max-width:1000px){
 	
