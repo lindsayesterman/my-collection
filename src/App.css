@@ -195,6 +195,26 @@ input, button{
 }
 
 
+@media (max-width:700px){
+	input, button, .checkout-cart {
+		width:20%;
+	}
+
+	input, button, .checkout-cart {
+		margin: 10px auto;
+		width:85%;
+	}
+
+	div.cart-item {
+		width:90%;
+	}
+
+	button {
+		width:96%;
+	}
+}
+
+
 @media only screen and (min-width:751px) and (max-width:1000px){
 	
 	.item{
@@ -281,10 +301,6 @@ input, button{
 	.mini-item-container{
 		flex-direction:row;
 		justify-content:center;
-	}
-
-	input, button, .checkout-cart {
-		width:90%;
 	}
 
 }
