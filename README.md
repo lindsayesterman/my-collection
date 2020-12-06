@@ -1,4 +1,4 @@
-##My closet 
+#My closet 
 
 A react app I made to sell my old clothes for more affordable prices and promote sustainable fashion. 
 
