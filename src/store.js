@@ -302,9 +302,6 @@ export default {
         },
         {
         "name": "Dresses"
-        },
-        {
-        "name": "Sale"
         }
     ]
 }

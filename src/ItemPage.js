@@ -12,11 +12,11 @@ class ItemPage extends React.Component {
     };
   }
 
-  handleClick = (e) => {
-    this.setState({
-      bigURL: e.target.src.split("/").pop(),
-    });
-  };
+  // handleClick = (e) => {
+  //   this.setState({
+  //     bigURL: e.target.src.split("/").pop(),
+  //   });
+  // };
 
   handleAddToCart = () => {
     this.setState({
@@ -25,7 +25,7 @@ class ItemPage extends React.Component {
     this.setState({
       cartItem: this.props.item,
     });
-    console.log(this.props.item)
+    console.log(this.props.item);
   };
 
   render() {
@@ -36,7 +36,7 @@ class ItemPage extends React.Component {
     return (
       <div className="item-info">
         <div className="mini-item-container">
-          <img
+          {/* <img
             className="mini-item"
             src={item.url}
             onClick={this.handleClick}
@@ -55,9 +55,31 @@ class ItemPage extends React.Component {
             className="mini-item"
             src={item.url3}
             onClick={this.handleClick}
+          ></img> */}
+          <div className="c-container">
+          <img
+            className="c-item"
+            src={item.url1}
+            onClick={this.handleClick}
           ></img>
+          <img
+            className="c-item"
+            src={item.url2}
+            onClick={this.handleClick}
+          ></img>
+          <img
+            className="c-item"
+            src={item.url3}
+            onClick={this.handleClick}
+          ></img>
+          <img
+            className="c-item"
+            src={item.url}
+            onClick={this.handleClick}
+          ></img>
+           </div>
         </div>
-        <img className="bigItem" src={URLClicked}></img>
+        {/* <img className="bigItem" src={URLClicked}></img> */}
         <div className="info">
           <h2>{item.name}</h2>
           <p>${item.price} </p>
