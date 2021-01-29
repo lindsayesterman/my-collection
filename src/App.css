@@ -33,13 +33,11 @@ li {
   padding: 20px;
 }
 
-.lindsay {
-  margin-right: auto;
-  font-size: 19px;
-  margin-top: 17px;
-  margin-left: 6%;
+.lindsay h1 {
+  font-size: 40px;
   color: black;
-  font-weight: bold;
+  padding-left: 10%;
+  font-family: "Cookie", cursive;
 }
 
 .car-top {
@@ -253,7 +251,8 @@ div.cart-item img {
   }
 
   .dye-top,
-  .shoes, .car-top{
+  .shoes,
+  .car-top {
     display: none;
   }
 
@@ -262,10 +261,10 @@ div.cart-item img {
     padding: 1px;
   }
 
-  .lindsay h1{
+  .lindsay h1 {
     margin: 0 auto;
-    padding-top:30px;
-    font-size:30px;
+    padding-top: 30px;
+    font-size: 30px;
   }
 
   /* .car-top {
@@ -319,12 +318,26 @@ div.cart-item img {
 }
 
 @media (min-width: 449px) {
-  .info {
+  /* .info {
     width: 35%;
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 76%;
     transform: translate(-50%, -50%);
     line-height: 1.6;
+  } */
+
+  .info {
+    width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    line-height: 1.6;
+  }
+
+  .piece {
+    display: flex;
+    justify-content: space-between;
   }
 }

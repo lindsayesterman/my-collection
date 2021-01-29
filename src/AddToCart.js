@@ -21,7 +21,9 @@ class AddToCart extends React.Component {
         <h2>You are in the cart</h2>
         <div className="cart-item">
           <h2>{item.name}</h2>
+          <Link to={`/item/${item.id}`}>
           <img src={item.url1}></img>
+          </Link>
           <p>{item.description}</p>
           <p>${item.price} </p>
         </div>
