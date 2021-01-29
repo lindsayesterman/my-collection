@@ -6,8 +6,9 @@ import { Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import ItemPage from "./ItemPage.js";
 import { getItemsForNav, findItem, findNav } from "./Item-helpers";
-import Header from "./Header.js";
+import LandingPage from "./LandingPage.js";
 import AddToCart from "./AddToCart";
+import HeaderNav from "./HeaderNav";
 
 const { navs, items } = store;
 
@@ -27,14 +28,14 @@ class ItemApp extends Component {
   render() {
     const { items, navs } = this.state;
     const context = {
-        items: this.state.items,
-        items: this.state.item,
-        addItemToCart: (item) => {
-            this.setState({
-              item
-            })
-          }
-      }
+      items: this.state.items,
+      items: this.state.item,
+      addItemToCart: (item) => {
+        this.setState({
+          item,
+        });
+      },
+    };
     return (
       <div>
         {["/", "/nav/:navName"].map((path) => (
@@ -47,18 +48,20 @@ class ItemApp extends Component {
               const ItemsForNav = getItemsForNav(items, navName);
               return (
                 <>
+                  <HeaderNav />
                   <NavList {...routeProps} navs={navs} />
-                  <Header />
+                  <LandingPage />
                   <ItemList {...routeProps} items={ItemsForNav} />
                 </>
               );
             }}
           />
         ))}
-        <Route path="/item/:itemId" 
-        render={(routeProps) => {
-          return <ItemPage item={this.state.item} {...routeProps} />;
-        }}
+        <Route
+          path="/item/:itemId"
+          render={(routeProps) => {
+            return <ItemPage item={this.state.item} {...routeProps} />;
+          }}
         />
         <Route
           path="/AddToCart/:itemId"

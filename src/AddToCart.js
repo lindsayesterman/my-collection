@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Link } from "react-router-dom";
 import store from "./store.js";
 import "./App.css";
+import HeaderNav from "./HeaderNav";
 
 class AddToCart extends React.Component {
   render() {
@@ -16,17 +17,8 @@ class AddToCart extends React.Component {
     ).toFixed(2);
     return (
       <div className="cart-page">
-        <ul>
-          <li className="lindsay">
-            <Link to={"/"} style={{ textDecoration: "none", color: "black" }}>
-              Lindsay's Closet
-            </Link>
-          </li>
-          <Link className="checkout" to="/">
-            <li className="tabs">Shop</li>
-          </Link>
-        </ul>
-        <h1>You are in the cart</h1>
+        <HeaderNav/>
+        <h2>You are in the cart</h2>
         <div className="cart-item">
           <h2>{item.name}</h2>
           <img src={item.url1}></img>
@@ -52,7 +44,11 @@ class AddToCart extends React.Component {
           action="https://formspree.io/f/mwkwregz"
           method="POST"
         >
-          <input name="name" type="name" placeholder="Enter your name..."></input>
+          <input
+            name="name"
+            type="name"
+            placeholder="Enter your name..."
+          ></input>
           <input
             name="address"
             type="address"

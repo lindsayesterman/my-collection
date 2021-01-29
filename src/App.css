@@ -144,9 +144,9 @@ div.cart-item img {
   padding-bottom: 15px;
 }
 
-.cart-page h1 {
+.cart-page h2 {
   text-align: center;
-  padding: 32px;
+  padding-bottom: 30px;
 }
 
 .cart-page input,
@@ -248,12 +248,12 @@ div.cart-item img {
   }
 
   .item {
-    margin-top: 40px;
+    margin-top: 20px;
     width: 330px;
   }
 
   .dye-top,
-  .shoes {
+  .shoes, .car-top{
     display: none;
   }
 
@@ -262,16 +262,18 @@ div.cart-item img {
     padding: 1px;
   }
 
-  .lindsay {
-    margin-top: 1px;
+  .lindsay h1{
+    margin: 0 auto;
+    padding-top:30px;
+    font-size:30px;
   }
 
-  .car-top {
+  /* .car-top {
     margin-top: 5%;
     margin-left: 5%;
     margin-right: auto;
     width: 100%;
-  }
+  } */
 
   .lindsay {
     font-size: 10px;
@@ -323,5 +325,6 @@ div.cart-item img {
     top: 40%;
     left: 76%;
     transform: translate(-50%, -50%);
+    line-height: 1.6;
   }
 }
