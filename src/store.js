@@ -106,7 +106,7 @@ export default {
         },
         {
         name: "BillaBong Hoodie",
-        category: "Jackets-sweatshirts",
+        category: "Sweatshirts",
         id: "9",
         price: "18",
         size: "Small",
@@ -119,7 +119,7 @@ export default {
         },
         {
         name: "LF Plaid Blazer",
-        category: "Jackets-sweatshirts",
+        category: "Sweatshirts",
         id: "10",
         price: "35",
         size: "Exra small",
@@ -132,7 +132,7 @@ export default {
         },
         {
         name: "Tight red zip up jacket",
-        category: "Jackets-sweatshirts",
+        category: "Sweatshirts",
         id: "11",
         price: "13",
         size: "Small",
@@ -210,7 +210,7 @@ export default {
         },
         {
         name: "LF Black Soft Shorts",
-        category: "Bottoms-shorts",
+        category: "Bottoms",
         id: "18",
         price: "19",
         size: "Small",
@@ -223,7 +223,7 @@ export default {
         },
         {
         name: "Brandy Melville Gray Alien Cropped Crewneck",
-        category: "Jackets-sweatshirts",
+        category: "Sweatshirts",
         id: "19",
         price: "17",
         size: "Small",
@@ -292,13 +292,13 @@ export default {
         "name": "Tops"
         },
         {
-        "name": "Jackets-sweatshirts"
+        "name": "Sweatshirts"
         },
         {
         "name": "Jeans" 
         },
         {
-        "name": "Bottoms-shorts"
+        "name": "Bottoms"
         },
         {
         "name": "Dresses"

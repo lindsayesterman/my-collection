@@ -9,7 +9,7 @@ export default function NavList (props){
               <Link to={'/'}
               className="nav"
               style={{ textDecoration: 'none' }}>
-                All
+                <b style={{"fontSize": "12px"}}>All</b>
               </Link>
             {props.navs.map(nav =>
                 <div key={nav.name}>

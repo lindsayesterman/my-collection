@@ -1,13 +1,13 @@
 html {
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
   font-family: "Roboto", sans-serif;
 }
 
 #nav-bar {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: fixed;
   top: 20%;
 }
 
@@ -17,6 +17,10 @@ html {
   cursor: pointer;
   list-style: none;
   color: black;
+}
+
+.nav:hover {
+  text-decoration: underline;
 }
 
 ul {
@@ -78,12 +82,21 @@ li {
   margin-left: 13%;
 }
 
-.item {
+/* .item {
   height: 320px;
   width: 310px;
   margin: 30px;
   border-bottom: 80px solid white;
   border-radius: 25px;
+} */
+
+.item {
+  height: 270px;
+  width: 263px;
+  margin: 30px;
+  border:1px solid #d1d5da;
+  border-bottom: 80px solid white;
+  border-radius: 2px;
 }
 
 .listing {
@@ -96,7 +109,7 @@ li {
 
 .item-name {
   position: absolute;
-  top: 79%;
+  top: 75%;
   left: 50%;
   color: black;
   font-size: 15px;
@@ -105,7 +118,7 @@ li {
 
 .price {
   position: absolute;
-  top: 85%;
+  top: 82%;
   left: 50%;
   color: black;
   font-size: 14px;
@@ -199,10 +212,6 @@ div.cart-item img {
   .item {
     height: 310px;
     width: 300px;
-  }
-
-  #nav-bar {
-    position: absolute;
   }
 
   .nav {
