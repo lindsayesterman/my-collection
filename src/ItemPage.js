@@ -3,6 +3,7 @@ import store from "./store.js";
 import AddToCart from "./AddToCart";
 import { Link } from "react-router-dom";
 import HeaderNav from "./HeaderNav";
+import ScrollToTop from './ScrollToTop';
 
 class ItemPage extends React.Component {
   constructor(props) {
@@ -13,11 +14,6 @@ class ItemPage extends React.Component {
     };
   }
 
-  // handleClick = (e) => {
-  //   this.setState({
-  //     bigURL: e.target.src.split("/").pop(),
-  //   });
-  // };
 
   handleAddToCart = () => {
     this.setState({
@@ -36,6 +32,7 @@ class ItemPage extends React.Component {
     const item = items.find((p) => p.id === this.props.match.params.itemId);
     return (
       <div className="item-info">
+         <ScrollToTop></ScrollToTop>
         <HeaderNav />
         <div className="mini-item-container">
           <div className="c-container">

@@ -134,7 +134,7 @@ li {
 
 .c-item {
   width: 100%;
-  margin: 20px 0;
+  margin: 0px 0;
   left: 0px;
 }
 
@@ -339,7 +339,7 @@ div.cart-item img {
   .info {
     width: 35%;
     position: absolute;
-    top: 50%;
+    top: 44%;
     left: 76%;
     transform: translate(-50%, -50%);
     line-height: 1.6;
