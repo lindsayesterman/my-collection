@@ -1,5 +1,4 @@
 html {
-  /* background-color: #f6f6f6; */
   font-family: "Roboto", sans-serif;
 }
 
@@ -82,19 +81,11 @@ li {
   margin-left: 13%;
 }
 
-/* .item {
-  height: 320px;
-  width: 310px;
-  margin: 30px;
-  border-bottom: 80px solid white;
-  border-radius: 25px;
-} */
-
 .item {
   height: 270px;
   width: 263px;
   margin: 30px;
-  border:1px solid #d1d5da;
+  border: 1px solid #d1d5da;
   border-bottom: 80px solid white;
   border-radius: 2px;
 }
@@ -134,7 +125,7 @@ li {
 
 .c-item {
   width: 100%;
-  margin: 0px 0;
+  margin: 20px 0;
   left: 0px;
 }
 
@@ -188,6 +179,11 @@ div.cart-item img {
   color: blue;
 }
 
+.piece {
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (min-width: 751px) and (max-width: 1000px) {
   .item {
     height: 310px;
@@ -238,10 +234,6 @@ div.cart-item img {
     margin-left: 4%;
   }
 
-  .mini-item-container {
-    flex-direction: row;
-    justify-content: center;
-  }
   .cart-page button {
     position: absolute;
     left: 57%;
@@ -256,7 +248,6 @@ div.cart-item img {
 
   .item {
     margin-top: 20px;
-    width: 330px;
   }
 
   .dye-top,
@@ -276,21 +267,14 @@ div.cart-item img {
     font-size: 30px;
   }
 
-  /* .car-top {
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: auto;
-    width: 100%;
-  } */
-
-  .lindsay {
-    font-size: 10px;
-  }
-
-  .mini-item-container {
+  /* .mini-item-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+  } */
+
+  .flex-container{
+    margin-left:0%;
   }
 
   .c-container {
@@ -300,10 +284,6 @@ div.cart-item img {
 
   .c-item {
     width: 98%;
-  }
-
-  #nav-bar {
-    display: none;
   }
 
   .info {
@@ -327,15 +307,6 @@ div.cart-item img {
 }
 
 @media (min-width: 449px) {
-  /* .info {
-    width: 35%;
-    position: absolute;
-    top: 50%;
-    left: 76%;
-    transform: translate(-50%, -50%);
-    line-height: 1.6;
-  } */
-
   .info {
     width: 35%;
     position: absolute;
@@ -343,10 +314,5 @@ div.cart-item img {
     left: 76%;
     transform: translate(-50%, -50%);
     line-height: 1.6;
-  }
-
-  .piece {
-    display: flex;
-    justify-content: space-between;
   }
 }

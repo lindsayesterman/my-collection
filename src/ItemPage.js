@@ -3,7 +3,7 @@ import store from "./store.js";
 import AddToCart from "./AddToCart";
 import { Link } from "react-router-dom";
 import HeaderNav from "./HeaderNav";
-import ScrollToTop from './ScrollToTop';
+import ScrollToTop from "./ScrollToTop";
 
 class ItemPage extends React.Component {
   constructor(props) {
@@ -13,7 +13,6 @@ class ItemPage extends React.Component {
       cartItem: [],
     };
   }
-
 
   handleAddToCart = () => {
     this.setState({
@@ -32,49 +31,31 @@ class ItemPage extends React.Component {
     const item = items.find((p) => p.id === this.props.match.params.itemId);
     return (
       <div className="item-info">
-         <ScrollToTop></ScrollToTop>
+        <ScrollToTop/>
         <HeaderNav />
-        <div className="mini-item-container">
-          <div className="c-container">
-            <img
-              className="c-item"
-              src={item.url}
-              onClick={this.handleClick}
-            ></img>
-            <img
-              className="c-item"
-              src={item.url1}
-              onClick={this.handleClick}
-            ></img>
-            <img
-              className="c-item"
-              src={item.url2}
-              onClick={this.handleClick}
-            ></img>
-            <img
-              className="c-item"
-              src={item.url3}
-              onClick={this.handleClick}
-            ></img>
-          </div>
+        <div className="c-container">
+          <img
+            className="c-item"
+            src={item.url}
+            onClick={this.handleClick}
+          ></img>
+          <img
+            className="c-item"
+            src={item.url1}
+            onClick={this.handleClick}
+          ></img>
+          <img
+            className="c-item"
+            src={item.url2}
+            onClick={this.handleClick}
+          ></img>
+          <img
+            className="c-item"
+            src={item.url3}
+            onClick={this.handleClick}
+          ></img>
         </div>
-        {/* <img className="bigItem" src={URLClicked}></img> */}
         <div className="info">
-          {/* <h2>{item.name}</h2>
-          <p><b>Price</b> <br/> ${item.price} </p>
-          <p><b>Brand</b> <br/> {item.brand}</p>
-          <p><b>Size</b> <br/> {item.size}</p>
-          <p><b>Description</b> <br/> {item.description}</p>
-          <Link to={`/AddToCart/${item.id}`}>
-            <button
-              className="add-to-cart"
-              key={this.props.id}
-              onClick={this.handleAddToCart}
-            >
-              Add to Cart
-            </button>
-          </Link>
-        </div> */}
           <h2>{item.name}</h2>
           <div className="piece">
             <span className="label">Price</span>
