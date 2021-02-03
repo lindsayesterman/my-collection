@@ -7,9 +7,8 @@ export default function NavList (props){
       return (
         <div id="nav-bar">
               <Link to={'/'}
-              className="nav"
-              style={{ textDecoration: 'none' }}>
-                <b style={{"fontSize": "12px"}}>All</b>
+              className="nav">
+                <b>All</b>
               </Link>
             {props.navs.map(nav =>
                 <div key={nav.name}>

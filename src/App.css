@@ -11,11 +11,12 @@ html {
 }
 
 .nav {
-  font-size: 14px;
+  font-size: 16px;
   margin: 15px;
   cursor: pointer;
   list-style: none;
   color: black;
+  text-decoration: underline;
 }
 
 .nav:hover {
@@ -100,10 +101,6 @@ li {
 
 .listing {
   position: relative;
-}
-
-.listing:hover {
-  /* transform: scale(1.1); */
 }
 
 .item-name {
@@ -227,7 +224,7 @@ div.cart-item img {
   }
 
   .nav {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .dye-top,
@@ -259,7 +256,16 @@ div.cart-item img {
 
 @media screen and (max-width: 449px) {
   #nav-bar {
-    display: none;
+    flex-direction: row;
+    top:10%;
+    flex-wrap:wrap;
+  }
+
+  .nav{
+    line-height:.1;
+    font-size:13px;
+    font-style:italic;
+    text-decoration: underline;
   }
 
   .item {
