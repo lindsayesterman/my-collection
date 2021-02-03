@@ -79,19 +79,6 @@ export default {
         description: "Yellow long sleeve top with small holes in it for style. Super cute. Made by emma and sam but bought at LF. "
         },
         {
-        name: "One shoulder navy blue sparkly dress",
-        category: "Dresses",
-        id: "7",
-        price: "14",
-        size: "Small",
-        brand: "No brand",
-        url: "/img/sparkledress.png",
-        url1: "/img/bluesparkle1.png",
-        url2: "/img/bluesparkle2.png",
-        url3: "/img/bluesparkle3.png",
-        description: "Very flattering sparkly navy blue dress. One shoulder design. Textured feel. "
-        },
-        {
         name: "Green Free People long sleeve top",
         category: "Tops",
         id: "8",
@@ -222,19 +209,6 @@ export default {
         description: "Super cute LF shorts with stretchy waist band and pockets. LF tape for design. Very comfortable and trendy. " 
         },
         {
-        name: "Brandy Melville Gray Alien Cropped Crewneck",
-        category: "Sweatshirts",
-        id: "19",
-        price: "17",
-        size: "Small",
-        brand: "Brandy Melville ",
-        url: "/img/grayalien.png",
-        url1: "/img/grayalien1.png",
-        url2: "/img/grayalien2.png",
-        url3: "/img/grayalien3.png",
-        description: "Cropped brandy melville light gray sweatshirt. Gray alien patch in corner. " 
-        },
-        {
         name: "Juicy Black Dress",
         category: "Dresses",
         id: "20",
@@ -273,19 +247,6 @@ export default {
         url3: "/img/bluescrunch3.png",
         description: "Tie dye denim blue scrunchy tank top. One-of-a-kind. Super cute and fun and perfect for any event! Very trendy right now:) . Never worn before and brand new."             
         },
-        {
-        name: "Treasure & bond ripped blue jeans",
-        category: "Jeans",
-        id: "25",
-        price: "22",
-        size: "25",
-        brand: "Treasure & bond",
-        url: "/img/jeans3.png",
-        url1: "/img/jeans.png",
-        url2: "/img/jeans1.png",
-        url3: "/img/jeans2.png",
-        description: "Distressed bluejeans with really cute holes. Skinny boyfriend mid rise ankle. Great condition." 
-        }, 
     ], 
     "navs": [
         {
