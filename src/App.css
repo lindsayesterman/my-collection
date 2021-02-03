@@ -263,7 +263,22 @@ div.cart-item img {
   }
 
   .item {
-    margin-top: 20px;
+    margin: 5px;
+    width:160px;
+    height:180px;
+  }
+
+  .item-name, .price {
+    font-size:11px;
+  }
+
+  .item-name{
+    top:67%;
+    left:9%;
+  }
+
+  .price{
+    top:75%;
   }
 
   .dye-top,
