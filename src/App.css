@@ -12,7 +12,7 @@ html {
 
 .nav {
   font-size: 16px;
-  margin: 15px;
+  margin: 13px;
   cursor: pointer;
   list-style: none;
   color: black;
@@ -256,9 +256,11 @@ div.cart-item img {
 
 @media screen and (max-width: 449px) {
   #nav-bar {
+    position:absolute;
     flex-direction: row;
     top:10%;
     flex-wrap:wrap;
+    padding:5px;
   }
 
   .nav{
