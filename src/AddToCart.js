@@ -57,9 +57,9 @@ class AddToCart extends React.Component {
             placeholder="Enter your address..."
           ></input>
           <input
-            name="phone"
+            name="item"
             type="text"
-            placeholder={`Enter this name: ${item.name}`}
+            value={`${item.name}`}
           ></input>
           <button name="submit" type="submit">
             Submit
