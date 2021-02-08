@@ -338,6 +338,12 @@ div.cart-item img {
     padding: 20px;
   }
 }
+@media screen and (max-width: 320px) {
+  .item{
+    width:140px;
+    height:160px;
+  }
+}
 
 @media (min-width: 449px) {
   .info {
