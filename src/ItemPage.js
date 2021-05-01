@@ -59,7 +59,7 @@ class ItemPage extends React.Component {
           <h2>{item.name}</h2>
           <div className="piece">
             <span className="label">Price</span>
-            <span className="actual">{item.price}</span>
+            <span className="actual">${item.price}</span>
           </div>
           <hr />
           <div className="piece">
