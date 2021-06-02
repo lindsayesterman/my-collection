@@ -3,7 +3,7 @@ export default {
     {
       name: "Andrea Jovine patterned wool blazer",
       category: "Jackets",
-      id: "21",
+      id: "1",
       price: "23",
       size: "6",
       brand: "Andrea Jovine",
@@ -17,7 +17,7 @@ export default {
     {
       name: "LF black zip up cropped sweater",
       category: "Sweatshirts",
-      id: "22",
+      id: "2",
       price: "35",
       size: "S",
       brand: "LF Seek",
@@ -31,7 +31,7 @@ export default {
     {
       name: "Red Champion Crewneck Sweatshirt",
       category: "Sweatshirts",
-      id: "23",
+      id: "3",
       price: "33",
       size: "XL",
       brand: "Champion",
@@ -45,7 +45,7 @@ export default {
     {
       name: "Blue Champion Crewneck Sweatshirt",
       category: "Sweatshirts",
-      id: "24",
+      id: "4",
       price: "33",
       size: "XL",
       brand: "Champion",
@@ -59,7 +59,7 @@ export default {
     {
       name: "Karen Kane red velvet dressy top",
       category: "Tops",
-      id: "25",
+      id: "5",
       price: "19",
       size: "6",
       brand: "Karen Kane",
@@ -73,7 +73,7 @@ export default {
     {
       name: "Calvin Klein blue tshirt",
       category: "Tops",
-      id: "1",
+      id: "6",
       price: "15",
       size: "Small",
       brand: "Calvin Klein",
@@ -87,7 +87,7 @@ export default {
     {
       name: "Red adidas tank",
       category: "Tops",
-      id: "3",
+      id: "7",
       price: "11",
       size: "Small",
       brand: "Adidas",
@@ -101,7 +101,7 @@ export default {
     {
       name: "Carmar LF ripped white jeans",
       category: "Bottoms",
-      id: "26",
+      id: "8",
       price: "59",
       size: "26",
       brand: "LF Carmar",
@@ -115,7 +115,7 @@ export default {
     {
       name: "Green Free People long sleeve top",
       category: "Tops",
-      id: "6",
+      id: "9",
       price: "15",
       size: "Extra small",
       brand: "Free People",
@@ -129,7 +129,7 @@ export default {
     {
       name: "BillaBong Hoodie",
       category: "Sweatshirts",
-      id: "7",
+      id: "10",
       price: "18",
       size: "Small",
       brand: "BillaBong",
@@ -143,7 +143,7 @@ export default {
     {
       name: "LF Plaid Blazer",
       category: "Jackets",
-      id: "8",
+      id: "11",
       price: "35",
       size: "Exra small",
       brand: "LF",
@@ -157,7 +157,7 @@ export default {
     {
       name: "The Beatles crop top",
       category: "Tops",
-      id: "10",
+      id: "12",
       price: "11",
       size: "Small",
       brand: "The Beatles",
@@ -170,7 +170,7 @@ export default {
     {
       name: "Victoria's Secret PINK gray tunic",
       category: "Tops",
-      id: "12",
+      id: "13",
       price: "13",
       size: "Extra Small",
       brand: "Victoria's Secret PINK",
@@ -183,7 +183,7 @@ export default {
     {
       name: "Lucky Brand dark blue jeans",
       category: "Bottoms",
-      id: "28",
+      id: "14",
       price: "17",
       size: "25",
       brand: "Lucky Brand",
@@ -197,7 +197,7 @@ export default {
     {
       name: "White romper",
       category: "Dresses",
-      id: "13",
+      id: "15",
       price: "13",
       size: "Small",
       brand: "Forever 21",
@@ -210,7 +210,7 @@ export default {
     {
       name: "Amanda Richard Blouse",
       category: "Tops",
-      id: "14",
+      id: "16",
       price: "22",
       size: "Small",
       brand: "Amanda Richard ",
@@ -224,7 +224,7 @@ export default {
     {
       name: "LF Black Soft Shorts",
       category: "Bottoms",
-      id: "15",
+      id: "17",
       price: "19",
       size: "Small",
       brand: "LF",
@@ -250,9 +250,23 @@ export default {
         "Tie dye denim blue scrunchy tank top. One-of-a-kind. Super cute and fun and perfect for any event! Very trendy right now:) . Never worn before and brand new.",
     },
     {
+      name: "LF NWT ripped blue jean beatrice skirt",
+      category: "Bottoms",
+      id: "19",
+      price: "35",
+      size: "24",
+      brand: "LF Carmar Denim",
+      url: "/img/lfRippedSkirtJean1.png",
+      url1: "/img/lfRippedSkirtJean.png",
+      url2: "/img/lfRippedSkirtJean2.png",
+      url3: "/img/lfRippedSkirtJean3.png",
+      description:
+        "New with tags, never worn LF Beatrice denim ripped skirt. Made by carmar. The cutest skirt ever. Very trendy and perfect for any event. Originally $178.",
+    },
+    {
       name: "LF black scrunch mid sleeve top",
       category: "Tops",
-      id: "19",
+      id: "20",
       price: "19",
       size: "S",
       brand: "LF",
@@ -266,7 +280,7 @@ export default {
     {
       name: "NWT Forever 21 Black long sleev vneck",
       category: "Tops",
-      id: "20",
+      id: "21",
       price: "9",
       size: "S",
       brand: "Forever 21",
@@ -276,6 +290,34 @@ export default {
       url3: "/img/f21blcklongsleeve3.png",
       description:
         "New with tags forever 21 black long sleeve V-neck. Super cute and fun and perfect for any event. Size medium but could fit a small.",
+    },
+    {
+      name: "NWOT LF Black and White Tie Dye Jeans",
+      category: "Bottoms",
+      id: "22",
+      price: "38",
+      size: "26",
+      brand: "LF Carmar Denim",
+      url: "/img/LfBlackAndWhiteTieDyeJeans.png",
+      url1: "/img/LfBlackAndWhiteTieDyeJeans1.png",
+      url2: "/img/LfBlackAndWhiteTieDyeJeans2.png",
+      url3: "/img/LfBlackAndWhiteTieDyeJeans3.png",
+      description:
+        "Great condition - only worn once. Super rare. Originally $228. Made by carmar denim. Size 26 but prob fits a 25 better.",
+    },
+    {
+      name: "Light pink and white tie-dye tank top",
+      category: "Tops",
+      id: "23",
+      price: "13",
+      size: "Small",
+      brand: "No brand",
+      url: "/img/pinkAndWhiteTieDyeTank.png",
+      url1: "/img/pinkAndWhiteTieDyeTank1.png",
+      url2: "/img/pinkAndWhiteTieDyeTank2.png",
+      url3: "/img/pinkAndWhiteTieDyeTank3.png",
+      description:
+        "Tie dye pink scrunch tank top. One-of-a-kind. Super cute and fun and perfect for any event! Very trendy right now:) under brandy for exposure. Never worn before and brand new! First two pics are not mine",
     },
   ],
   navs: [
