@@ -17,16 +17,16 @@ class AddToCart extends React.Component {
     ).toFixed(2);
     return (
       <div className="cart-page">
-        <HeaderNav/>
-        <h2>You are in the cart</h2>
+        <HeaderNav />
+        <h2>You are in the cart.</h2>
+        <Link to={`/item/${item.id}`}>
         <div className="cart-item">
-          <h2>{item.name}</h2>
-          <Link to={`/item/${item.id}`}>
-          <img src={item.url1}></img>
-          </Link>
-          <p>{item.description}</p>
-          <p>${item.price} </p>
+            <h2>{item.name}</h2>
+            <img src={item.url1}></img>
+            <p>{item.description}</p>
+            <p>${item.price} </p>
         </div>
+        </Link>
         <div className="checkout-cart">
           <h3>Checkout</h3>
           <h4>Shipping is $4.99</h4>
@@ -56,11 +56,7 @@ class AddToCart extends React.Component {
             type="address"
             placeholder="Enter your address..."
           ></input>
-          <input
-            name="item"
-            type="text"
-            value={`${item.name}`}
-          ></input>
+          <input name="item" type="text" value={`${item.name}`}></input>
           <button name="submit" type="submit">
             Submit
           </button>

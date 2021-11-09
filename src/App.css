@@ -143,11 +143,21 @@ div.cart-item {
   position: relative;
   height: 100%;
   float: left;
+  color:black;
 }
 
 div.cart-item img {
   width: 100%;
   padding-bottom: 15px;
+}
+
+div.cart-item:hover{
+  -webkit-filter: brightness(90%);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .cart-page h2 {
