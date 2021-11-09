@@ -83,11 +83,11 @@ li {
 }
 
 .item {
-  height:350px;
-  width:330px;
-  margin: 30px;
+  height:290px;
+  width:280px;
+  margin: 15px;
   border-bottom: 80px solid transparent;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 .item:hover{
